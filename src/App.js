@@ -1,8 +1,10 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+
 import { Header } from './components/Header/Header';
 import { Main } from './containers/Main/Main';
 import { Footer } from './components/Footer/Footer';
+
+import './App.css';
 
 function App() {
   return (

@@ -1,5 +1,8 @@
 import React from "react";
+
 import { Form } from "../From/Form";
+import ProductList from "../../containers/ProductList/ProductList"
+
 import "./Main.scss";
 
 export const Main = ({ children }) => {
@@ -7,6 +10,7 @@ export const Main = ({ children }) => {
     <div className="Main">
       Main content
       <Form />
+      <ProductList/>
       {children}
     </div>
   );
